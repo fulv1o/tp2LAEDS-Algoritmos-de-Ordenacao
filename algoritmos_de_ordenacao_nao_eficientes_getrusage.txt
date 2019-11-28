@@ -1,0 +1,1137 @@
+ALGORITMOS DE ORDENAÇÃO NÃO-EFICIENTES
+Simulações para getrusage()
+
+Algoritmos não-eficientes
+1. Bubblesort
+2. Insercao
+3. Selecao
+
+Plano de testes:
+(Tamanho do vetor a ser ordenado)
+
+100
+1000
+10000
+20000
+30000
+
+===================================================================
+Algoritmos não-eficientes - Teste 1 (em ordem crescente (ordenado))
+===================================================================
+
+1. Bubblesort
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 756 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 668 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 803 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 4700 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 4810 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 4687 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 222847 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 216843 microssegundos.
+Tempo de sistema: 0 segundos e 8182 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 212478 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 832577 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 833078 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 830972 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 1 segundos e 874464 microssegundos.
+Tempo de sistema: 0 segundos e 8079 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 868880 microssegundos.
+Tempo de sistema: 0 segundos e 3993 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 863626 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+2. Insercao
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 671 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 708 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 688 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 929 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 998 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 713 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 3462 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 3468 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 4038 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 5601 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 5781 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 6524 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 7362 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 9696 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 9737 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+3. Seleção
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 702 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 677 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 479 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2814 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2685 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2711 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 113010 microssegundos.
+Tempo de sistema: 0 segundos e 4185 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 104211 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 100069 microssegundos.
+Tempo de sistema: 0 segundos e 3848 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 400923 microssegundos.
+Tempo de sistema: 0 segundos e 11908 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 403564 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 403737 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 300000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 939550 microssegundos.
+Tempo de sistema: 0 segundos e 8241 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 903813 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 903691 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+===========================================================
+Algoritmos não-eficientes - Teste 2 (em ordem descrescente)
+===========================================================
+
+1. Bubblesort
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 515 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 810 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 751 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 6516 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 4970 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 5917 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 304609 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 304355 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 305903 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 1 segundos e 210697 microssegundos.
+Tempo de sistema: 0 segundos e 3995 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 219012 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 213411 microssegundos.
+Tempo de sistema: 0 segundos e 7982 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 2 segundos e 716028 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 2 segundos e 714314 microssegundos.
+Tempo de sistema: 0 segundos e 8006 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 2 segundos e 777439 microssegundos.
+Tempo de sistema: 0 segundos e 4002 microssegundos.
+***************************************************************
+
+2. Inserção
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 886 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 722 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 734 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2868 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2820 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2829 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 115522 microssegundos.
+Tempo de sistema: 0 segundos e 3983 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 120822 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 112302 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 439860 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 429982 microssegundos.
+Tempo de sistema: 0 segundos e 4018 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 443586 microssegundos.
+Tempo de sistema: 0 segundos e 3996 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 977059 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 980034 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 5007 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+3. Seleção
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 760 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 776 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 674 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2812 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2681 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 3092 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 151206 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 156467 microssegundos.
+Tempo de sistema: 0 segundos e 3911 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 151745 microssegundos.
+Tempo de sistema: 0 segundos e 3993 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 656602 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 651575 microssegundos.
+Tempo de sistema: 0 segundos e 3997 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 657260 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 1 segundos e 519044 microssegundos.
+Tempo de sistema: 0 segundos e 4008 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 532873 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 550711 microssegundos.
+Tempo de sistema: 0 segundos e 15986 microssegundos.
+***************************************************************
+
+===============================================
+Algoritmos não-eficientes - Teste 3 (aleatório)
+===============================================
+
+1. Bubblesort
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 751 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 605 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 759 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 7359 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 7453 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 6569 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 392523 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 386566 microssegundos.
+Tempo de sistema: 0 segundos e 3985 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 384536 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 1 segundos e 544912 microssegundos.
+Tempo de sistema: 0 segundos e 4002 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 533813 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 577855 microssegundos.
+Tempo de sistema: 0 segundos e 11923 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 3 segundos e 456560 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 3 segundos e 459975 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 3 segundos e 527734 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+2. Inserção
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 597 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 673 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 416 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 1763 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 1786 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 1800 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 56964 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 65984 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 52746 microssegundos.
+Tempo de sistema: 0 segundos e 4057 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 220103 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 222991 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 224012 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 494848 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 478802 microssegundos.
+Tempo de sistema: 0 segundos e 3990 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 491528 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+3. Seleção
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 667 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 712 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 678 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2804 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2677 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2701 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 103365 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 103055 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 103111 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 400834 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 413173 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 404412 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 905398 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 909718 microssegundos.
+Tempo de sistema: 0 segundos e 7979 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 923834 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+====================================================
+Algoritmos não-eficientes - Teste 4 (quase ordenado)
+====================================================
+
+1. Bubblesort
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 804 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 736 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 802 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 5220 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 4095 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 4958 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 251562 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 251577 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 250173 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 997372 microssegundos.
+Tempo de sistema: 0 segundos e 3989 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 8082 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 1 segundos e 1188 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 2 segundos e 236065 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 2 segundos e 240211 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 2 segundos e 301813 microssegundos.
+Tempo de sistema: 0 segundos e 11947 microssegundos.
+***************************************************************
+
+2. Inserção
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 752 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 685 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 684 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 1219 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 1150 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 1297 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 16844 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 16963 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 13128 microssegundos.
+Tempo de sistema: 0 segundos e 3282 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 55464 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 57534 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 56442 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 115084 microssegundos.
+Tempo de sistema: 0 segundos e 3968 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 128894 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 114215 microssegundos.
+Tempo de sistema: 0 segundos e 3938 microssegundos.
+***************************************************************
+
+3. Seleção
+
+---
+Entrada: 100
+
+***************************************************************
+Tempo de usuario: 0 segundos e 761 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 680 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 736 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 1000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2789 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2679 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 2808 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 10000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 103557 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 102374 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 107360 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 20000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 409995 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 409508 microssegundos.
+Tempo de sistema: 0 segundos e 4014 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 403483 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+---
+Entrada: 30000
+
+***************************************************************
+Tempo de usuario: 0 segundos e 902367 microssegundos.
+Tempo de sistema: 0 segundos e 4010 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 901372 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
+***************************************************************
+Tempo de usuario: 0 segundos e 911405 microssegundos.
+Tempo de sistema: 0 segundos e 0 microssegundos.
+***************************************************************
+
